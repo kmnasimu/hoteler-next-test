@@ -2,11 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 
 
-function Features2() {
+function Features2({ className }) {
     return (
         <>
 
-        <section className="feature-section-two pb-0">
+        <section className={`feature-section-two ${className || ''}`}>
             <div className="auto-container">
                 <div className="row feature-row g-0">
                     <div className="image-column col-lg-6">

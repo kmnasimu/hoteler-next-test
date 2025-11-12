@@ -22,7 +22,7 @@ export default function Home5Dark() {
       <Video />
       <Gallery />
       <Marquee />
-      <Features2 />
+      <Features2 className="pb-0"/>
       <Funfact />
       <Pricing />
       <Testimonial />
