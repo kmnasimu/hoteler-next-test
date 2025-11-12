@@ -34,7 +34,7 @@ function Banner() {
                                     <div className="offer-text wow fadeInUp" data-wow-delay="300ms">book your room</div>
                                     <h1 className="title wow fadeInUp" data-wow-delay="600ms">Your perfect getaway <br />Awaits, book today</h1>
                                     <div className="btn-box wow fadeInUp" data-wow-delay="900ms">
-                                        <Link href="/page-contact" className="theme-btn btn-style-two"><span className="btn-title">BOOK NOW</span></Link>
+                                        <Link href="/contact" className="theme-btn btn-style-two"><span className="btn-title">BOOK NOW</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ function Banner() {
                                     <div className="offer-text wow fadeInUp" data-wow-delay="300ms">book your room</div>
                                     <h1 className="title wow fadeInUp" data-wow-delay="600ms">Your perfect getaway <br />Awaits, book today</h1>
                                     <div className="btn-box wow fadeInUp" data-wow-delay="900ms">
-                                        <Link href="/page-contact" className="theme-btn btn-style-two"><span className="btn-title">BOOK NOW</span></Link>
+                                        <Link href="/contact" className="theme-btn btn-style-two"><span className="btn-title">BOOK NOW</span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -78,7 +78,7 @@ function Banner() {
                                     <div className="offer-text wow fadeInUp" data-wow-delay="300ms">book your room</div>
                                     <h1 className="title wow fadeInUp" data-wow-delay="600ms">Your perfect getaway <br />Awaits, book today</h1>
                                     <div className="btn-box wow fadeInUp" data-wow-delay="900ms">
-                                        <Link href="/page-contact" className="theme-btn btn-style-two"><span className="btn-title">BOOK NOW</span></Link>
+                                        <Link href="/contact" className="theme-btn btn-style-two"><span className="btn-title">BOOK NOW</span></Link>
                                     </div>
                                 </div>
                             </div>

@@ -46,7 +46,7 @@ function About2() {
                                 </div>
                             </div>
                             <div className="btn-box">
-                                <Link href="/page-contact" className="theme-btn btn-style-one"><span className="btn-title">Book Now</span></Link>
+                                <Link href="/contact" className="theme-btn btn-style-one"><span className="btn-title">Book Now</span></Link>
                             </div>
                         </div>
                     </div>

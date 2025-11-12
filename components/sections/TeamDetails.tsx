@@ -97,7 +97,7 @@ export default function TeamDetails(){
 					</div>
 					<div className="row justify-content-center">
 						<div className="col-lg-8">
-							<form id="contact_form" name="contact_form" action="/page-team-details" method="get">
+							<form id="contact_form" name="contact_form" action="/team-details" method="get">
 								<div className="row">
 									<div className="col-sm-6">
 										<div className="mb-3">

@@ -31,9 +31,9 @@ export default function TeamGrid() {
                             <div className="team-block">
                                 <div className="inner-box pb-0">
                                     <div className="image-box">
-                                        <figure className="image"><Link href="page-team-details"><img src={`images/resource/${item.img}`} alt="Image" /></Link></figure>
+                                        <figure className="image"><Link href="team-details"><img src={`images/resource/${item.img}`} alt="Image" /></Link></figure>
                                         <div className="info-box">
-                                            <h4 className="name"><Link href="page-team-details">{item.title}</Link></h4>
+                                            <h4 className="name"><Link href="team-details">{item.title}</Link></h4>
                                             <span className="designation">{item.desig}</span> <span className="share-icon fa fa-share-alt" />
                                             <div className="social-links">
                                                 <Link href=""><i className="fab fa-twitter" /></Link>

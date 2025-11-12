@@ -58,7 +58,7 @@ export default function Team() {
                 <div className="image-box">
                   <div className="inner-box">
                     <figure className="image overlay-anim">
-                      <Link href="/page-team-details">
+                      <Link href="/team-details">
                         <Image
                           src={member.image}
                           alt={member.name}
@@ -70,7 +70,7 @@ export default function Team() {
                   </div>
                   <div className="info-box">
                     <h4 className="name">
-                      <Link href="/page-team-details">{member.name}</Link>
+                      <Link href="/team-details">{member.name}</Link>
                     </h4>
                     <span className="designation">{member.designation}</span>
                     <div className="social-links">

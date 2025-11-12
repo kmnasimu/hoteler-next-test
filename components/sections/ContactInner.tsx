@@ -13,7 +13,7 @@ function ContactForm() {
                                 <span className="sub-title before-none">Send us email</span>
                                 <h2>Feel free to write</h2>
                             </div>
-                            <form id="contact_form" name="contact_form" action="/page-contact" method="get">
+                            <form id="contact_form" name="contact_form" action="/contact" method="get">
                                 <div className="row">
                                     <div className="col-sm-6">
                                         <div className="mb-3">
@@ -62,7 +62,7 @@ function ContactForm() {
                                         </div>
                                         <div className="text ml-xs--0 mt-xs-10">
                                             <h6>Have any question?</h6>
-                                            <Link href="/page-contact"><span>Free</span> +92 (020)-9850</Link>
+                                            <Link href="/contact"><span>Free</span> +92 (020)-9850</Link>
                                         </div>
                                     </li>
                                     <li className="d-block d-sm-flex align-items-sm-center ">
@@ -71,7 +71,7 @@ function ContactForm() {
                                         </div>
                                         <div className="text ml-xs--0 mt-xs-10">
                                             <h6>Write email</h6>
-                                            <Link href="/page-contact">needhelp@company.com</Link>
+                                            <Link href="/contact">needhelp@company.com</Link>
                                         </div>
                                     </li>
                                     <li className="d-block d-sm-flex align-items-sm-center ">

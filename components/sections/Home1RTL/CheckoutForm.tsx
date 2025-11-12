@@ -51,7 +51,7 @@ function CheckoutForm() {
                             </select>
                         </div>
                     </div>
-                    <Link href="/page-contact" className="theme-btn btn-style-one"><span className="btn-title">يفحص <br />التوفر</span></Link>
+                    <Link href="/contact" className="theme-btn btn-style-one"><span className="btn-title">يفحص <br />التوفر</span></Link>
                 </div>
             </div>
         </div>

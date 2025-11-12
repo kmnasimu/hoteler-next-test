@@ -23,7 +23,7 @@ function Banner() {
                             <div className="text wow fadeInUp" data-wow-delay="800ms">Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt hendrer cursus integer ridiculus eros bibendum dictum.</div>
                         </div>
                         <div className="btn-box wow fadeInUp" data-wow-delay="900ms">
-                            <Link href="/page-services" className="theme-btn btn-style-two"><span className="btn-title">ROOM & SUITES</span></Link>
+                            <Link href="/services" className="theme-btn btn-style-two"><span className="btn-title">ROOM & SUITES</span></Link>
                         </div>
                     </div>
                     <div className="booking-form-column bg-dark-style col-lg-5 col-md-6">

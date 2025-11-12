@@ -20,10 +20,10 @@ function Team() {
                         <div className="inner-box wow fadeInLeft">
                             <div className="image-box">
                                 <div className="inner-box">
-                                    <figure className="image overlay-anim"><Link href="/page-team-details"><img src="images/resource/team-1.jpg" alt="" /></Link></figure>
+                                    <figure className="image overlay-anim"><Link href="/team-details"><img src="images/resource/team-1.jpg" alt="" /></Link></figure>
                                 </div>
                                 <div className="info-box">
-                                    <h4 className="name"><a href="page-team-details.html">مايكل دين</a></h4>
+                                    <h4 className="name"><a href="team-details.html">مايكل دين</a></h4>
                                     <span className="designation">الرئيس التنفيذي والمؤسس</span>
                                     <div className="social-links">
                                         <Link href="/"><i className="fab fa-facebook" /></Link>
@@ -39,10 +39,10 @@ function Team() {
                         <div className="inner-box wow fadeInLeft" data-wow-delay="200ms">
                             <div className="image-box">
                                 <div className="inner-box">
-                                    <figure className="image overlay-anim"><Link href="/page-team-details"><img src="images/resource/team-2.jpg" alt="" /></Link></figure>
+                                    <figure className="image overlay-anim"><Link href="/team-details"><img src="images/resource/team-2.jpg" alt="" /></Link></figure>
                                 </div>
                                 <div className="info-box">
-                                    <h4 className="name"><a href="page-team-details.html">فرانك بيرتون</a></h4>
+                                    <h4 className="name"><a href="team-details.html">فرانك بيرتون</a></h4>
                                     <span className="designation">مدير المطبخ</span>
                                     <div className="social-links">
                                         <Link href="/"><i className="fab fa-facebook" /></Link>
@@ -58,10 +58,10 @@ function Team() {
                         <div className="inner-box wow fadeInLeft" data-wow-delay="300ms">
                             <div className="image-box">
                                 <div className="inner-box">
-                                    <figure className="image overlay-anim"><Link href="/page-team-details"><img src="images/resource/team-3.jpg" alt="" /></Link></figure>
+                                    <figure className="image overlay-anim"><Link href="/team-details"><img src="images/resource/team-3.jpg" alt="" /></Link></figure>
                                 </div>
                                 <div className="info-box">
-                                    <h4 className="name"><a href="page-team-details.html">ميا مولينز</a></h4>
+                                    <h4 className="name"><a href="team-details.html">ميا مولينز</a></h4>
                                     <span className="designation">مدير الفندق</span>
                                     <div className="social-links">
                                         <Link href="/"><i className="fab fa-facebook" /></Link>
@@ -77,10 +77,10 @@ function Team() {
                         <div className="inner-box wow fadeInLeft" data-wow-delay="400ms">
                             <div className="image-box">
                                 <div className="inner-box">
-                                    <figure className="image overlay-anim"><Link href="/page-team-details"><img src="images/resource/team-4.jpg" alt="" /></Link></figure>
+                                    <figure className="image overlay-anim"><Link href="/team-details"><img src="images/resource/team-4.jpg" alt="" /></Link></figure>
                                 </div>
                                 <div className="info-box">
-                                    <h4 className="name"><a href="page-team-details.html">رالف نجوين</a></h4>
+                                    <h4 className="name"><a href="team-details.html">رالف نجوين</a></h4>
                                     <span className="designation">خدمة الغرف</span>
                                     <div className="social-links">
                                         <Link href="/"><i className="fab fa-facebook" /></Link>

@@ -1,9 +1,14 @@
 "use client";
 import React from 'react';
 import Link from 'next/link';
-import Slider from "react-slick";
+import dynamic from 'next/dynamic';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+
+const Slider = dynamic(() => import("react-slick").then((mod) => mod.default), {
+    ssr: false,
+    loading: () => <div>Loading...</div>
+});
 
 const settings = {
     infinite: true,

@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -6,7 +7,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// Swiper settings
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     autoplay: {
@@ -20,7 +20,7 @@ const swiperOptions = {
     },
     spaceBetween: 130,
     loop: true,
-    centeredSlides: true,  // Center mode
+    centeredSlides: true,
 };
 
 function Banner() {
@@ -39,7 +39,7 @@ function Banner() {
                                     <div className="offer-text wow fadeInUp" data-wow-delay="300ms">Hotel booking</div>
                                         <h1 className="title wow fadeInUp" data-wow-delay="600ms">Visit your Dream Hotel & Booking  Room Now</h1>
                                         <div className="btn-box wow fadeInUp" data-wow-delay="900ms">
-                                            <Link href="/page-contact" className="theme-btn btn-link-style"><span className="btn-title">BOOK NOW</span> <i className="icon fa fa-arrow-right-long"></i></Link>
+                                            <Link href="/contact" className="theme-btn btn-link-style"><span className="btn-title">BOOK NOW</span> <i className="icon fa fa-arrow-right-long"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@ function Banner() {
                                         <div className="offer-text wow fadeInUp" data-wow-delay="300ms">Hotel booking</div>
                                         <h1 className="title wow fadeInUp" data-wow-delay="600ms">Visit your Dream Hotel & Booking  Room Now</h1>
                                         <div className="btn-box wow fadeInUp" data-wow-delay="900ms">
-                                            <Link href="/page-contact" className="theme-btn btn-link-style"><span className="btn-title">BOOK NOW</span> <i className="icon fa fa-arrow-right-long"></i></Link>
+                                            <Link href="/contact" className="theme-btn btn-link-style"><span className="btn-title">BOOK NOW</span> <i className="icon fa fa-arrow-right-long"></i></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ function Banner() {
                                         <div className="offer-text wow fadeInUp" data-wow-delay="300ms">Hotel booking</div>
                                         <h1 className="title wow fadeInUp" data-wow-delay="600ms">Visit your Dream Hotel & Booking  Room Now</h1>
                                         <div className="btn-box wow fadeInUp" data-wow-delay="900ms">
-                                            <Link href="/page-contact" className="theme-btn btn-link-style"><span className="btn-title">BOOK NOW</span><i className="icon fa fa-arrow-right-long"></i></Link>
+                                            <Link href="/contact" className="theme-btn btn-link-style"><span className="btn-title">BOOK NOW</span><i className="icon fa fa-arrow-right-long"></i></Link>
                                         </div>
                                     </div>
                                 </div>

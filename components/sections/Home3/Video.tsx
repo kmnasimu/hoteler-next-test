@@ -27,7 +27,7 @@ function Video() {
                     <div className="info-text">
                         <div className="inner-info">
                             <div className="text">Sed imperdiet dignissim odio dignissim bibendum. Praesent porttitor tristique velit. efficitur, a pulvinar sem hasellus.</div>
-                            <Link href="/page-contact" className="link">Get a Free Consultation <i className="icon fas fa-arrow-right" /></Link>
+                            <Link href="/contact" className="link">Get a Free Consultation <i className="icon fas fa-arrow-right" /></Link>
                         </div>
                     </div>
                 </div>

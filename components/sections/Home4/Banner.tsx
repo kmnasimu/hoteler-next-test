@@ -21,7 +21,7 @@ function Banner() {
                         <h1 className="title wow fadeInUp" data-wow-delay="600ms">Book Your Dream Hotel with Hoteler</h1>
                         <div className="text wow fadeInUp" data-wow-delay="800ms">Hoteler is the ultimate destination to rejuvenate your spirit. Featuring recently <br />renovated rooms & an enhanced emphasis on culinary excellence</div>
                         <div className="btn-box wow fadeInUp" data-wow-delay="900ms">
-                            <Link href="/page-contact" className="theme-btn btn-style-three"><span className="btn-title">BOOK NOW</span></Link>
+                            <Link href="/contact" className="theme-btn btn-style-three"><span className="btn-title">BOOK NOW</span></Link>
                         </div>
                     </div>
                 </div>

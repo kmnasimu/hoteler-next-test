@@ -25,7 +25,7 @@ function Banner() {
                         <div className="text wow fadeInUp" data-wow-delay="600ms">Experience unparalleled comfort and luxury with our carefully curated collection of hotels, crafted to ensure an unforgettable stay From world-class</div>
                     </div>
                     <div className="btn-box wow fadeInUp" data-wow-delay="800ms">
-                        <Link href="/page-contact" className="theme-btn btn-style-two"><span className="btn-title">BOOK NOW</span></Link>
+                        <Link href="/contact" className="theme-btn btn-style-two"><span className="btn-title">BOOK NOW</span></Link>
                         <div className="contact-info">
                             <div className="icon-box"><i className="flaticon-customer-service" /></div>
                             <span>BOOK NOW</span>

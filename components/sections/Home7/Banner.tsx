@@ -37,7 +37,7 @@ function Banner() {
                             <div className="text wow fadeInUp" data-wow-delay="800ms">Lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt ter jrthendrerit cursus integer ridiculus eros bibendum dictum</div>
                         </div>
                         <div className="btn-box wow fadeInUp" data-wow-delay="900ms">
-                            <Link href="/page-services" className="theme-btn btn-style-two"><span className="btn-title">ROOM & SUITES</span></Link>                            
+                            <Link href="/services" className="theme-btn btn-style-two"><span className="btn-title">ROOM & SUITES</span></Link>                            
                             <div className="video-box">
                                 <a onClick={() => setOpen(true)} className="play-now" data-fancybox="gallery" data-caption="">
                                     <i className="icon fa fa-play" />                                    
