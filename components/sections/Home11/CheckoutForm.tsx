@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 
 function CheckoutForm() {
-    const [selectedDate, setSelectedDate] = useState(null);
+    const [selectedDate, setSelectedDate] = useState<Date | null>(null);
     return (
         <>
 

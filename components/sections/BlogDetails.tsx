@@ -120,7 +120,7 @@ const BlogDetails = () => {
 												id="form_message" 
 												name="form_message" 
 												className="form-control required" 
-												rows="5" 
+												rows={5} 
 												placeholder="Enter Message" 
 												required 
 											/>

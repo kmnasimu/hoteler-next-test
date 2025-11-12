@@ -13,7 +13,7 @@ export default function ShopSidebar() {
                                 <div className="sidebar-search">
                                     <form action="shop-productsclassName=" method="post" className="search-form">
                                         <div className="form-group">
-                                            <input type="search" name="search-field" placeholder="Search..." required="" />
+                                            <input type="search" name="search-field" placeholder="Search..." required />
                                             <button><i className="lnr lnr-icon-search"></i></button>
                                         </div>
                                     </form>

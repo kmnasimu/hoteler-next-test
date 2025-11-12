@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-const settings = {
+const settings: any = {
     autoplay: true,
     speed: 800,
     lazyLoad: 'progressive',

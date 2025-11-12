@@ -34,7 +34,7 @@ function Contact() {
                                         <input type="text" name="subject" placeholder="Check Out" required />
                                     </div>
                                     <div className="form-group col-lg-12">
-                                        <textarea name="textarea" placeholder="Write a Message" rows="2"></textarea>
+                                        <textarea name="textarea" placeholder="Write a Message" rows={2}></textarea>
                                     </div>
                                     <div className="form-group col-lg-12">
                                         <button type="submit" className="theme-btn btn-style-two" name="submit-form"><span className="btn-title">Submit now</span></button>

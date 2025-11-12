@@ -58,7 +58,7 @@ const MobileMenu = () => {
                         <li><Link href="/home6">Home page 06</Link></li>
                         <li className="dropdown">
                             <Link href="/">More Home</Link>
-                            <ul className={setSubIsActive.key === 1 ? "d-block" : "d-none"}>
+                            <ul className={isSubActive.key === 1 ? "d-block" : "d-none"}>
                                 <li><Link href="/home7">Home page 07</Link></li>
                                 <li><Link href="/home8">Home page 08</Link></li>
                                 <li><Link href="/home9">Home page 09</Link></li>
@@ -66,11 +66,11 @@ const MobileMenu = () => {
                                 <li><Link href="/home11">Home page 11</Link></li>
                                 <li><Link href="/home12">Home page 12</Link></li>
                             </ul>
-                            <div className={setSubIsActive.key === 1 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(1)}><i className="fa fa-angle-down"></i></div>
+                            <div className={isSubActive.key === 1 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleSubClick(1)}><i className="fa fa-angle-down"></i></div>
                         </li>
                         <li className="dropdown">
                             <Link href="/">Dark Home</Link>
-                            <ul className={setSubIsActive.key === 2 ? "d-block" : "d-none"}>
+                            <ul className={isSubActive.key === 2 ? "d-block" : "d-none"}>
                                 <li><Link href="/home1-dark">Dark Home 01</Link></li>
                                 <li><Link href="/home2-dark">Dark Home 02</Link></li>
                                 <li><Link href="/home3-dark">Dark Home 03</Link></li>
@@ -84,11 +84,11 @@ const MobileMenu = () => {
                                 <li><Link href="/home11-dark">Dark Home 11</Link></li>
                                 <li><Link href="/home12-dark">Dark Home 12</Link></li>
                             </ul>
-                            <div className={setSubIsActive.key === 2 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(2)}><i className="fa fa-angle-down"></i></div>
+                            <div className={isSubActive.key === 2 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleSubClick(2)}><i className="fa fa-angle-down"></i></div>
                         </li>
                         <li className="dropdown">
                             <Link href="/">Single Home</Link>
-                            <ul className={setSubIsActive.key === 3 ? "d-block" : "d-none"}>
+                            <ul className={isSubActive.key === 3 ? "d-block" : "d-none"}>
                                 <li><Link href="/home1-single">Single Home 01</Link></li>
                                 <li><Link href="/home2-single">Single Home 02</Link></li>
                                 <li><Link href="/home3-single">Single Home 03</Link></li>
@@ -102,7 +102,7 @@ const MobileMenu = () => {
                                 <li><Link href="/home11-single">Single Home 11</Link></li>
                                 <li><Link href="/home12-single">Single Home 12</Link></li>
                             </ul>
-                            <div className={setSubIsActive.key === 3 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(3)}><i className="fa fa-angle-down"></i></div>
+                            <div className={isSubActive.key === 3 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleSubClick(3)}><i className="fa fa-angle-down"></i></div>
                         </li>
                         <li><Link href="/home1-rtl">RTL Home</Link></li>
                     </ul>
@@ -125,30 +125,30 @@ const MobileMenu = () => {
                         <li><Link href="/pricing">Pricing</Link></li>
                         <li className="dropdown">
                             <Link href="/">Services</Link>
-                            <ul className={setSubIsActive.key === 4 ? "d-block" : "d-none"}>
+                            <ul className={isSubActive.key === 4 ? "d-block" : "d-none"}>
                                 <li><Link href="/services">Services List</Link></li>
                                 <li><Link href="/service-details">Services Details</Link></li>
                             </ul>
-                            <div className={setSubIsActive.key === 4 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(4)}><i className="fa fa-angle-down"></i></div>
+                            <div className={isSubActive.key === 4 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleSubClick(4)}><i className="fa fa-angle-down"></i></div>
                         </li>
                         <li className="dropdown">
                             <Link href="/">Team</Link>
-                            <ul className={setSubIsActive.key === 5 ? "d-block" : "d-none"}>
+                            <ul className={isSubActive.key === 5 ? "d-block" : "d-none"}>
                                 <li><Link href="/team">Team List</Link></li>
                                 <li><Link href="/team-details">Team Details</Link></li>
                             </ul>
-                            <div className={setSubIsActive.key === 5 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(5)}><i className="fa fa-angle-down"></i></div>
+                            <div className={isSubActive.key === 5 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleSubClick(5)}><i className="fa fa-angle-down"></i></div>
                         </li>
                         <li className="dropdown">
                             <Link href="/">Shop</Link>
-                            <ul className={setSubIsActive.key === 6 ? "d-block" : "d-none"}>
+                            <ul className={isSubActive.key === 6 ? "d-block" : "d-none"}>
                                 <li><Link href="/shop-products">Products</Link></li>
                                 <li><Link href="/shop-products-sidebar">Products with Sidebar</Link></li>
                                 <li><Link href="/shop-product-details">Product Details</Link></li>
                                 <li><Link href="/shop-cart">Cart</Link></li>
                                 <li><Link href="/shop-checkout">Checkout</Link></li>
                             </ul>
-                            <div className={setSubIsActive.key === 6 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleClick(6)}><i className="fa fa-angle-down"></i></div>
+                            <div className={isSubActive.key === 6 ? "dropdown-btn active" : "dropdown-btn"} onClick={() => handleSubClick(6)}><i className="fa fa-angle-down"></i></div>
                         </li>
                         <li><Link href="/testimonial">Testimonials</Link></li>
                         <li><Link href="/not-found-page">404</Link></li>

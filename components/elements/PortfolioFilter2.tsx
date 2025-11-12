@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 export default function PortfolioFilter1() {
     const isotopeContainer = useRef(null);
     const [filterKey, setFilterKey] = useState("*");
-    const [isotopeInstance, setIsotopeInstance] = useState(null);
+	const [isotopeInstance, setIsotopeInstance] = useState<any | null>(null);
 
     useEffect(() => {
         if (typeof window !== 'undefined') {

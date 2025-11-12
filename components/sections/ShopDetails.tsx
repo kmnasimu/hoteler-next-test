@@ -8,10 +8,10 @@ import { FreeMode, Navigation, Autoplay, Thumbs } from 'swiper/modules';
 const ShopDetails = () => {  
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index) => {
-      setActiveIndex(index); // remove the curly braces
+    setActiveIndex(index);
   };
 
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [thumbsSwiper, setThumbsSwiper] = useState<any | null>(null);
   const [quantities, setQuantities] = useState({
     item1: 1,
     item2: 1,
@@ -211,8 +211,8 @@ const ShopDetails = () => {
                 <h3>Add Your Comments</h3>
                 <form id="contact_form" name="contact_form" action="/" method="get">
                   <div className="mb-3">
-                    <textarea name="form_message" className="form-control required" rows="7" placeholder="Enter Message"></textarea>
-                  </div>
+                      <textarea name="form_message" className="form-control required" rows={7} placeholder="Enter Message"></textarea>
+                    </div>
                   <div className="row">
                     <div className="col-sm-6">
                       <div className="mb-3">
@@ -277,8 +277,7 @@ const ShopDetails = () => {
             <div className="content">
               <h4><Link href="/shop-product-details">Headphone</Link></h4>
               <span className="price">$32.00</span>
-              <span className="rating"><i className="fa fa-star"></i><i className="fa fa-star">
-                </i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i></span>
+              <span className="rating"><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i></span>
             </div>
           </div>
         </div>

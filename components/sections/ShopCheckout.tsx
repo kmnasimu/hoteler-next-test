@@ -13,6 +13,7 @@ const ShopCheckout1 = () => {
     if (isActive.key === key) {
       setIsActive({
         status: false,
+        key: 0,
       })
     } else {
       setIsActive({
@@ -89,7 +90,7 @@ const ShopCheckout1 = () => {
               <div className="col-md-6">
                 <h3>Additional information</h3>
                 <label htmlFor="order_comments" className="">Order notes&nbsp;<span className="optional">(optional)</span></label>
-                <textarea id="order_comments" className="form-control" placeholder="Notes about your order, e.g. special notes for delivery." rows="3"></textarea>
+                <textarea id="order_comments" className="form-control" placeholder="Notes about your order, e.g. special notes for delivery." rows={3}></textarea>
               </div>
               <div className="col-md-12 mt-30">
                 <h3>Your order</h3>
@@ -146,24 +147,24 @@ const ShopCheckout1 = () => {
                       <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                         <div className="payment-info">
                           <div className="row clearfix">
-                            <div className="col-lg-6 col-md-6 col-sm-12 column">
+                                <div className="col-lg-6 col-md-6 col-sm-12 column">
                               <div className="field-input mb-3">
-                                <input type="text" className="form-control" name="name" placeholder="Name on the Card" required=""/>
+                                <input type="text" className="form-control" name="name" placeholder="Name on the Card" required/>
                               </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 column">
                               <div className="field-input mb-3">
-                                <input type="text" className="form-control" name="number" placeholder="Card Number" required=""/>
+                                <input type="text" className="form-control" name="number" placeholder="Card Number" required/>
                               </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-12 column">
                               <div className="field-input mb-3">
-                                <input type="text" className="form-control" name="date" placeholder="Expiry Date" required=""/>
+                                <input type="text" className="form-control" name="date" placeholder="Expiry Date" required/>
                               </div>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-12 column">
                               <div className="field-input mb-3">
-                                <input type="text" className="form-control" name="code" placeholder="Security Code" required=""/>
+                                <input type="text" className="form-control" name="code" placeholder="Security Code" required/>
                               </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12 column">

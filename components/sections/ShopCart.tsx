@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const ShopCart = () => {
-  // Define state for quantities
   const [quantities, setQuantities] = useState({
     item1: 1,
     item2: 1,
@@ -129,7 +128,7 @@ const ShopCart = () => {
                         <td className="product-subtotal"><span className="amount">${68.00 * quantities.item3}</span></td>
                       </tr>
                       <tr className="cart_item">
-                        <td colSpan="3">
+                        <td colSpan={3}>
                           <form className="row g-3 coupon-form">
                             <div className="col-auto">
                               <input type="text" name="coupon_code" className="input-text form-control mr-1" id="coupon_code" defaultValue="" placeholder="Coupon code" />
@@ -139,7 +138,7 @@ const ShopCart = () => {
                             </div>
                           </form>
                         </td>
-                        <td colSpan="2">&nbsp;</td>
+                        <td colSpan={2}>&nbsp;</td>
                         <td><button type="button" className="theme-btn btn-style-one"><span className="btn-title">Update Cart</span></button></td>
                       </tr>
                     </tbody>

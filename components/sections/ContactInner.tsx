@@ -39,7 +39,7 @@ function ContactForm() {
                                     </div>
                                 </div>
                                 <div className="mb-3">
-                                    <textarea name="form_message" className="form-control required" rows="7" placeholder="Enter Message" />
+                                    <textarea name="form_message" className="form-control required" rows={7} placeholder="Enter Message" />
                                 </div>
                                 <div className="mb-5">
                                     <input name="form_botcheck" className="form-control" type="hidden" value="" />

@@ -2,7 +2,8 @@
 
 import React, { useState } from 'react'
 import ModalVideo from 'react-modal-video'
-const ModalVideo = () => {
+
+const ModalVideoBtn = () => {
     const [isOpen, setOpen] = useState(false)
     return (
         <div>
@@ -13,4 +14,4 @@ const ModalVideo = () => {
     );
 };
 
-export default ModalVideo;
+export default ModalVideoBtn;

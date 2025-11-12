@@ -9,7 +9,7 @@ import Link from 'next/link'
 
 function Banner() {
     const [isOpen, setOpen] = useState(false);
-    const [selectedDate, setSelectedDate] = useState(null)
+    const [selectedDate, setSelectedDate] = useState<Date | null>(null)
     return (
         <>
 
