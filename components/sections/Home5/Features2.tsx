@@ -1,8 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
 
+interface Features2Props {
+    className?: string;
+}
 
-function Features2({ className }) {
+function Features2({ className = '' }: Features2Props) {
     return (
         <>
 
