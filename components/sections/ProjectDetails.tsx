@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 import ProjectsSliderOne from '../slider/ProjectsSliderOne';
-const ProjectDetails = () => {
+
+export default function ProjectDetails (){
 	return (
 		<>
 
@@ -95,5 +96,3 @@ const ProjectDetails = () => {
 		</>
 	);
 };
-
-export default ProjectDetails;

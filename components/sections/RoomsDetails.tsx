@@ -21,6 +21,7 @@ export default function RoomsDetails() {
 
   return (
     <>
+
       <section className="blog-details pt-120 pb-120">
         <div className="container">
           <div className="row">
@@ -396,7 +397,7 @@ export default function RoomsDetails() {
           </div>
         </div>
       </section>
-
-    </>
+      
+    </>    
   );
 }

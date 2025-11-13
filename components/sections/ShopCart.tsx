@@ -3,16 +3,16 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-const ShopCart = () => {
+export default function ShopCart() {
   const [quantities, setQuantities] = useState({
     item1: 1,
     item2: 1,
     item3: 1
   });
 
-  const handleQuantityChange = (item, change) => {
+  const handleQuantityChange = (item: string, change: number): void => {
     setQuantities(prevQuantities => {
-      const newQuantity = prevQuantities[item] + change;
+      const newQuantity = prevQuantities[item as keyof typeof prevQuantities] + change;
       return {
         ...prevQuantities,
         [item]: newQuantity > 0 ? newQuantity : 1
@@ -23,7 +23,7 @@ const ShopCart = () => {
   return (
     <>
       <section>
-        <div className="container pb-100">
+        <div className="container pt-120 pb-90">
           <div className="section-content">
             <div className="row">
               <div className="col-md-12">
@@ -42,7 +42,7 @@ const ShopCart = () => {
                     <tbody>
                       <tr className="cart_item">
                         <td className="product-remove">
-                          <Link title="Remove this item" className="remove" href="#">Ã—</Link>
+                          <Link title="Remove this item" className="remove" href="#">×</Link>
                         </td>
                         <td className="product-thumbnail">
                           <Link href="#"><img alt="product" src="/images/resource/products/1.jpg" /></Link>
@@ -71,7 +71,7 @@ const ShopCart = () => {
                       </tr>
                       <tr className="cart_item">
                         <td className="product-remove">
-                          <Link title="Remove this item" className="remove" href="#">Ã—</Link>
+                          <Link title="Remove this item" className="remove" href="#">×</Link>
                         </td>
                         <td className="product-thumbnail">
                           <Link href="#"><img alt="product" src="/images/resource/products/2.jpg" /></Link>
@@ -100,7 +100,7 @@ const ShopCart = () => {
                       </tr>
                       <tr className="cart_item">
                         <td className="product-remove">
-                          <Link title="Remove this item" className="remove" href="#">Ã—</Link>
+                          <Link title="Remove this item" className="remove" href="#">×</Link>
                         </td>
                         <td className="product-thumbnail">
                           <Link href="#"><img alt="product" src="/images/resource/products/3.jpg" /></Link>
@@ -149,7 +149,7 @@ const ShopCart = () => {
                 <div className="row">
                   <div className="col-md-5">
                     <h4>Calculate Shipping</h4>
-                    <form className="form" action="#">
+                    <form className="form" action="/">
                       <div className="mb-10">
                         <select className="form-control">
                           <option>Select Country</option>
@@ -159,10 +159,10 @@ const ShopCart = () => {
                         </select>
                       </div>
                       <div className="mb-10">
-                        <input type="text" className="form-control" placeholder="State/country" defaultValue="" />
+                        <input type="text" className="form-control" placeholder="State/country" />
                       </div>
                       <div className="mb-10">
-                        <input type="text" className="form-control" placeholder="Postcode/zip" defaultValue="" />
+                        <input type="text" className="form-control" placeholder="Postcode/zip" />
                       </div>
                       <div className="mb-30">
                         <button type="button" className="theme-btn btn-style-one"><span className="btn-title">Update Totals</span></button>
@@ -189,7 +189,7 @@ const ShopCart = () => {
                         </tr>
                       </tbody>
                     </table>
-                    <Link className="theme-btn btn-style-one" href="shop-checkout"><span className="btn-title">Proceed to Checkout</span></Link>
+                    <Link className="theme-btn btn-style-one" href="/shop-checkout"><span className="btn-title">Proceed to Checkout</span></Link>
                   </div>
                 </div>
               </div>
@@ -200,6 +200,3 @@ const ShopCart = () => {
     </>
   );
 };
-
-export default ShopCart;
-

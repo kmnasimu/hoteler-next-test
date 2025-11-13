@@ -17913,19 +17913,22 @@ table.tbl-shopping-cart > tfoot > tr > th {
   color: #646578;
   margin-right: 10px !important;
 }
-.range-slider .input {
-  color: #646578;
-  max-width: 75px;
-  font-size: 18px;
-  margin-top: 5px;
-  position: relative;
-  display: inline-block;
+.range-slider .rc-slider {
+  margin-bottom: 15px;
 }
-.range-slider .input input {
+.range-slider form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.range-slider input {
   background: none;
   color: #646578;
   font-size: 15px;
   text-align: left;
+  max-width: 130px;
+  width: 100%;
 }
 .range-slider .ui-widget.ui-widget-content {
   height: 4px;
@@ -20394,7 +20397,7 @@ Sidebar
   font-size: 14px;
   text-align: center;
   font-weight: 500;
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -20428,4 +20431,13 @@ Sidebar
 .team-contact-form textarea {
   background-color: #fff;
   height: 180px;
+}
+.team-contact-form .centerd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
 }

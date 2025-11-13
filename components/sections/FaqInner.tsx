@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-function FaqsInner(){
+export default function FaqsInner(){
 
     const [isActive, setIsActive] = useState<{ status: boolean; key: number | null }>(
         {
@@ -138,5 +138,3 @@ function FaqsInner(){
         </>
     );
 };
-
-export default FaqsInner;

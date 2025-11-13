@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-const ShopCheckout1 = () => {  
+export default function ShopCheckout1 (){  
   const [isActive, setIsActive] = useState({
     status: false,
     key: 1,
@@ -24,8 +24,9 @@ const ShopCheckout1 = () => {
   }
   return (
     <>
+    
     <section>
-      <div className="container pt-70">
+      <div className="container pt-90 pb-120">
         <div className="section-content">
           <form id="checkout-form" action="#">
             <div className="row mt-30">
@@ -218,5 +219,5 @@ const ShopCheckout1 = () => {
     </>
   );
 };
-export default ShopCheckout1
+
 

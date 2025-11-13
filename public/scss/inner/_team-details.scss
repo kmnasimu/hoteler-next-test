@@ -119,8 +119,6 @@
   padding-top: 23px;
   padding-bottom: 35px;
 }
-.team-details__top-text-3 {
-}
 .team-details__bottom {
   position: relative;
   display: block;
@@ -180,7 +178,7 @@
     font-size: 14px;
     text-align: center;
     font-weight: 500;
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
   }
@@ -207,7 +205,6 @@
 .team-contact-form{
   background-color: #eef0f6;
 
-
   input[type="text"],
   input[type="email"] {
     background-color: #fff;
@@ -216,6 +213,11 @@
   textarea {
     background-color: #fff;
     height: 180px;
+  }
+  .centerd{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
   }
 
 }

@@ -6,14 +6,14 @@ export default function TeamDetails(){
 		<>
 
 			<section className="team-details">
-				<div className="" />
-				<div className="container pb-100">
+				<div className="container pt-120 pb-100">
 					<div className="team-details__top pb-70">
 						<div className="row">
 							<div className="col-xl-6 col-lg-6">
 								<div className="team-details__top-left">
-									<div className="team-details__top-img"><img src="images/resource/team-details.jpg" alt="Image" />
-										<div className="team-details__big-text" />
+									<div className="team-details__top-img">
+										<img src="images/resource/team-details.jpg" alt="" />
+										<div className="team-details__big-text"></div>
 									</div>
 								</div>
 							</div>
@@ -25,21 +25,21 @@ export default function TeamDetails(){
 										<p className="team-details__top-text-1">I help my clients stand out and they help me grow.</p>
 										<div className="team-details-contact mb-30">
 											<h5 className="mb-0">Email Address</h5>
-											<div className=""><span>needhelp@yourdomain.com</span></div>
+											<div className="/"><span>needhelp@yourdomain.com</span></div>
 										</div>
 										<div className="team-details-contact mb-30">
 											<h5 className="mb-0">Phone Number</h5>
-											<div className=""><span>+012-3456-789</span></div>
+											<div className="/"><span>+012-3456-789</span></div>
 										</div>
 										<div className="team-details-contact">
 											<h5 className="mb-0">Web Address</h5>
 											<div className=""><span>www.yourdomain.com</span></div>
 										</div>
-										<div className="team-details__social"> 
-											<Link href=""><i className="fab fa-twitter" /></Link> 
-											<Link href=""><i className="fab fa-facebook" /></Link> 
-											<Link href=""><i className="fab fa-pinterest-p" /></Link> 
-											<Link href=""><i className="fab fa-instagram" /></Link> 
+										<div className="team-details__social">
+											<Link href="/"><i className="fab fa-x-twitter" /></Link>
+											<Link href="/"><i className="fab fa-facebook" /></Link>
+											<Link href="/"><i className="fab fa-pinterest-p" /></Link>
+											<Link href="/"><i className="fab fa-instagram" /></Link>
 										</div>
 									</div>
 								</div>
@@ -90,14 +90,14 @@ export default function TeamDetails(){
 			</section>
 
 			<section className="team-contact-form">
-				<div className="container pb-100">
+				<div className="container pt-120 pb-120">
 					<div className="sec-title text-center">
 						<span className="sub-title">Contact With Us Now</span>
 						<h2 className="section-title__title">Feel Free to Write Our <br /> Tecnology Experts</h2>
 					</div>
 					<div className="row justify-content-center">
 						<div className="col-lg-8">
-							<form id="contact_form" name="contact_form" action="/team-details" method="get">
+							<form id="contact_form" name="contact_form" action="/" method="post">
 								<div className="row">
 									<div className="col-sm-6">
 										<div className="mb-3">
@@ -123,12 +123,12 @@ export default function TeamDetails(){
 									</div>
 								</div>
 								<div className="mb-3">
-									<textarea name="form_message" className="form-control required" rows={5} placeholder="Enter Message" />
+									<textarea name="form_message" className="form-control required" rows={5} placeholder="Enter Message"></textarea>
 								</div>
-								<div className="mb-3 text-center">
+								<div className="mb-3 centerd">
 									<input name="form_botcheck" className="form-control" type="hidden" value="" />
-									<button type="submit" className="theme-btn btn-style-one"><span className="btn-title">Send message</span></button>
-									<button type="reset" className="theme-btn btn-style-one mx-3"><span className="btn-title">Reset</span></button>
+									<button type="submit" className="theme-btn btn-style-one" data-loading-text="Please wait..."><span className="btn-title">Send message</span></button>
+									<button type="reset" className="theme-btn btn-style-one"><span className="btn-title">Reset</span></button>
 								</div>
 							</form>
 						</div>

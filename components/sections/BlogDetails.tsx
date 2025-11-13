@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const BlogDetails = () => {
+export default function BlogDetails()  {
 	return (
 		<>
 
@@ -19,8 +19,8 @@ const BlogDetails = () => {
 							</div>
 							<div className="blog-details__content">
 								<ul className="list-unstyled blog-details__meta">
-									<li><Link href="news-details"><i className="fas fa-user-circle" /> Admin</Link> </li>
-									<li><Link href="news-details"><i className="fas fa-comments" /> 02 Comments</Link>
+									<li><Link href="/news-details"><i className="fas fa-user-circle" /> Admin</Link> </li>
+									<li><Link href="/news-details"><i className="fas fa-comments" /> 02 Comments</Link>
 									</li>
 								</ul>
 								<h3 className="blog-details__title">We’re Leader In Tecnology Market</h3>
@@ -44,19 +44,19 @@ const BlogDetails = () => {
 								</p>
 							</div>
 							<div className="blog-details__bottom">
-								<p className="blog-details__tags"> <span>Tags</span> <Link href="news-details">Agriculture</Link> <Link href="news-details">Farm</Link> </p>
+								<p className="blog-details__tags"> <span>Tags</span> <Link href="/news-details">Agriculture</Link> <Link href="/news-details">Farm</Link> </p>
 								<div className="blog-details__social-list"> 
-									<Link href="news-details"><i className="fab fa-twitter" /></Link> 
-									<Link href="news-details"><i className="fab fa-facebook" /></Link> 
-									<Link href="news-details"><i className="fab fa-pinterest-p" /></Link> 
-									<Link href="news-details"><i className="fab fa-instagram" /></Link></div>
+									<Link href="/news-details"><i className="fab fa-twitter" /></Link> 
+									<Link href="/news-details"><i className="fab fa-facebook" /></Link> 
+									<Link href="/news-details"><i className="fab fa-pinterest-p" /></Link> 
+									<Link href="/news-details"><i className="fab fa-instagram" /></Link></div>
 							</div>
 							<div className="nav-links">
 								<div className="prev">
-									<Link href="news-details" rel="prev">True factors of the modern healthy lifestyle</Link>
+									<Link href="/news-details" rel="prev">True factors of the modern healthy lifestyle</Link>
 								</div>
 								<div className="next">
-									<Link href="news-details" rel="next">How to lead a healthy &amp; well-balanced life</Link>
+									<Link href="/news-details" rel="next">How to lead a healthy &amp; well-balanced life</Link>
 								</div>
 							</div>
 							<div className="comment-one">
@@ -69,7 +69,7 @@ const BlogDetails = () => {
 											Aliquam quis purus in justo pulvinar tempor. Aliquam tellus nulla,
 											sollicitudin at euismod.
 										</p>
-										<Link href="news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Reply</span></Link>
+										<Link href="/news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Reply</span></Link>
 									</div>
 								</div>
 								<div className="comment-one__single">
@@ -80,18 +80,16 @@ const BlogDetails = () => {
 											Aliquam quis purus in justo pulvinar tempor. Aliquam tellus nulla,
 											sollicitudin at euismod.
 										</p>
-										<Link href="news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Reply</span></Link>
+										<Link href="/news-details" className="theme-btn btn-style-one comment-one__btn"><span className="btn-title">Reply</span></Link>
 									</div>
 								</div>
 								<div className="comment-form">
 									<h3 className="comment-form__title">Leave a Comment</h3>
-									<form id="contact_form" name="contact_form" action="/news-details" method="get">
+									<form id="contact_form" name="contact_form" action="/" method="get">
 										<div className="row">
 											<div className="col-sm-6">
 												<div className="mb-3">
-													<label htmlFor="form_name">Name</label>
 													<input 
-														id="form_name" 
 														name="form_name" 
 														className="form-control" 
 														type="text" 
@@ -102,9 +100,7 @@ const BlogDetails = () => {
 											</div>
 											<div className="col-sm-6">
 												<div className="mb-3">
-													<label htmlFor="form_email">Email</label>
 													<input 
-														id="form_email" 
 														name="form_email" 
 														className="form-control required email" 
 														type="email" 
@@ -114,15 +110,12 @@ const BlogDetails = () => {
 												</div>
 											</div>
 										</div>
-										<div className="mb-3">
-											<label htmlFor="form_message">Message</label>
-											<textarea 
-												id="form_message" 
+										<div className="mb-3">/
+											<textarea
 												name="form_message" 
 												className="form-control required" 
 												rows={5} 
-												placeholder="Enter Message" 
-												required 
+												placeholder="Enter Message"
 											/>
 										</div>
 										<div className="mb-3">
@@ -158,7 +151,7 @@ const BlogDetails = () => {
 										<div className="sidebar__post-image"> <img src="images/resource/news-1.jpg" alt="Image" /> </div>
 										<div className="sidebar__post-content">
 											<h3> <span className="sidebar__post-content-meta"><i
-												className="fas fa-user-circle" />Admin</span> <Link href="news-details">Top crypto exchange influencers</Link>
+												className="fas fa-user-circle" />Admin</span> <Link href="/news-details">Top crypto exchange influencers</Link>
 											</h3>
 										</div>
 									</li>
@@ -166,14 +159,14 @@ const BlogDetails = () => {
 										<div className="sidebar__post-image"> <img src="images/resource/news-2.jpg" alt="Image" /> </div>
 										<div className="sidebar__post-content">
 											<h3> <span className="sidebar__post-content-meta"><i
-												className="fas fa-user-circle" />Admin</span> <Link href="news-details">Necessity may give us best virtual court</Link> </h3>
+												className="fas fa-user-circle" />Admin</span> <Link href="/news-details">Necessity may give us best virtual court</Link> </h3>
 										</div>
 									</li>
 									<li>
 										<div className="sidebar__post-image"> <img src="images/resource/news-3.jpg" alt="Image" /> </div>
 										<div className="sidebar__post-content">
 											<h3> <span className="sidebar__post-content-meta"><i
-												className="fas fa-user-circle" />Admin</span> <Link href="news-details">You should know about business plan</Link> </h3>
+												className="fas fa-user-circle" />Admin</span> <Link href="/news-details">You should know about business plan</Link> </h3>
 										</div>
 									</li>
 								</ul>
@@ -181,29 +174,29 @@ const BlogDetails = () => {
 							<div className="sidebar__single sidebar__category">
 								<h3 className="sidebar__title">Categories</h3>
 								<ul className="sidebar__category-list list-unstyled">
-									<li><Link href="news-details">Artifical Intelligence<span
+									<li><Link href="/news-details">Artifical Intelligence<span
 										className="icon-right-arrow"></span></Link> </li>
-									<li className="active"><Link href="news-details">Cloud Solution<span
+									<li className="active"><Link href="/news-details">Cloud Solution<span
 										className="icon-right-arrow"></span></Link></li>
-									<li><Link href="news-details">Cyber Data<span
+									<li><Link href="/news-details">Cyber Data<span
 										className="icon-right-arrow"></span></Link> </li>
-									<li><Link href="news-details">SEO Marketing<span
+									<li><Link href="/news-details">SEO Marketing<span
 										className="icon-right-arrow"></span></Link> </li>
-									<li><Link href="news-details">UI/UX Design<span
+									<li><Link href="/news-details">UI/UX Design<span
 										className="icon-right-arrow"></span></Link> </li>
-									<li><Link href="news-details">Web Development<span
+									<li><Link href="/news-details">Web Development<span
 										className="icon-right-arrow"></span></Link> </li>
 								</ul>
 							</div>
 							<div className="sidebar__single sidebar__tags">
 								<h3 className="sidebar__title">Tags</h3>
 								<div className="sidebar__tags-list">
-									<Link href="#">Consulting</Link>
-									<Link href="#">Cyber</Link>
-									<Link href="#">Development</Link> 
-									<Link href="#">Digital</Link> 
-									<Link href="#">Software</Link> 
-									<Link href="#">Technology</Link>
+									<Link href="/">Consulting</Link>
+									<Link href="/">Cyber</Link>
+									<Link href="/">Development</Link> 
+									<Link href="/">Digital</Link> 
+									<Link href="/">Software</Link> 
+									<Link href="/">Technology</Link>
 								</div>
 							</div>
 							<div className="sidebar__single sidebar__comments">
@@ -250,5 +243,3 @@ const BlogDetails = () => {
 		</>
 	);
 };
-
-export default BlogDetails;

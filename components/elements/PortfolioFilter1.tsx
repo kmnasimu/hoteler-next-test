@@ -179,24 +179,22 @@ export default function PortfolioFilter1() {
 				</div>
 			</div>
 			<div className="product-block masonry-item small-column all cat-1 cat-4 cat-5 product lenses mb-50 col-lg-3 col-md-6">
-			<div className="inner-box">
-			<div className="image-box">
-				<div className="image"><Link href="shop-product-details"><img src="images/resource/products/8.jpg" alt="Image" /></Link></div>
-				<div className="icon-box">
-					<Link href="shop-product-details" className="ui-btn"><i className="fa fa-heart"></i></Link>
-					<Link href="shop-cart" className="ui-btn"><i className="fa fa-shopping-cart"></i></Link>
+				<div className="inner-box">
+					<div className="image-box">
+						<div className="image"><Link href="shop-product-details"><img src="images/resource/products/8.jpg" alt="Image" /></Link></div>
+						<div className="icon-box">
+							<Link href="shop-product-details" className="ui-btn"><i className="fa fa-heart"></i></Link>
+							<Link href="shop-cart" className="ui-btn"><i className="fa fa-shopping-cart"></i></Link>
+						</div>
+					</div>
+					<div className="content">
+						<h4><Link href="shop-product-details">Smart Watch</Link></h4>
+						<span className="price">$40.00</span>
+							<span className="rating"><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i></span>
+						</div>
+					</div>
 				</div>
-			</div>
-              <div className="content">
-			  <h4><Link href="shop-product-details">Smart Watch</Link></h4>
-			  <span className="price">$40.00</span>
-                <span className="rating"><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i></span>
-                
-            </div>
-        </div>
-    </div>
             </div>
         </>
     );
 }
-

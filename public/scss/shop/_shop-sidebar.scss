@@ -55,8 +55,6 @@
 			position: relative;
 			display: block;
 			margin-bottom: 16px;
-			.widget-title {
-			}
 		}
 	}
 	.category-widget {
@@ -173,19 +171,20 @@
 		color: #646578;
 		margin-right: 10px !important;
 	}
-	.input {
+	.rc-slider{
+		margin-bottom: 15px;
+	}
+	form{
+		display: flex;
+		gap: 10px;
+	}
+	input {
+		background: none;
 		color: #646578;
-		max-width: 75px;
-		font-size: 18px;
-		margin-top: 5px;
-		position: relative;
-		display: inline-block;
-		input {
-			background: none;
-			color: #646578;
-			font-size: 15px;
-			text-align: left;
-		}
+		font-size: 15px;
+		text-align: left;
+		max-width: 130px;
+		width: 100%;
 	}
 	.ui-widget.ui-widget-content {
 		height: 4px;

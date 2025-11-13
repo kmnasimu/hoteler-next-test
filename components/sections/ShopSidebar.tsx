@@ -63,11 +63,11 @@ export default function ShopSidebar() {
                                 </div>
                             </div>
                         </div>
-                <div className="col-lg-9 col-md-12 col-sm-12 content-side mt-md-60">
-                    <div className="mixitup-gallery">
-                        <PortfolioFilter2 /> 
-                    </div>
-                </div>
+                        <div className="col-lg-9 col-md-12 col-sm-12 content-side mt-md-60">
+                            <div className="mixitup-gallery">
+                                <PortfolioFilter2 /> 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

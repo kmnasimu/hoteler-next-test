@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-function BlogGrid(){
+export default function BlogGrid(){
     const data = [
         {
             img: "news-1.jpg",
@@ -76,5 +76,3 @@ function BlogGrid(){
         </>
     );
 };
-
-export default BlogGrid;

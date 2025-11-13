@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ContactMap() {
+export default function ContactMap() {
     return (
         <>
 
@@ -20,4 +20,3 @@ function ContactMap() {
         </>
     )
 }
-export default ContactMap

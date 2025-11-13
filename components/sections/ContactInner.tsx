@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-function ContactForm() {
+export default function ContactForm() {
     return (
         <>
 
@@ -93,4 +93,3 @@ function ContactForm() {
         </>
     )
 }
-export default ContactForm

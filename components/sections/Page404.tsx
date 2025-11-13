@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Error = () => {
+export default function Error() {
     return (
         <>
         <section>
@@ -31,5 +31,3 @@ const Error = () => {
         </>
     );
 };
-
-export default Error;
