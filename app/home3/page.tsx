@@ -21,7 +21,7 @@ export default function Home3() {
       <Testimonial />
       <Contact />
       <Clients />
-      <News />
+      <News className="pt-40" />
     </Layout>
   );
 }

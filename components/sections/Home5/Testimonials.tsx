@@ -1,10 +1,13 @@
 import React from 'react';
 
-function Testimonial() {
+interface TestimonialProps {
+  className?: string;
+}
+
+function Testimonial({ className = '' }: TestimonialProps) {
     return (
         <>
-
-        <section className="testimonial-section-five">
+        <section className={`testimonial-section-five ${className}`}>
             <div className="auto-container">
                 <div className="row">
                     <div className="col-lg-12">

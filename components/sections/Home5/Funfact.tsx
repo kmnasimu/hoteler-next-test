@@ -1,11 +1,11 @@
 import React from 'react';
 import CounterUp from '../../elements/CounterUp';
 
-function Funfact() {
+function Funfact( {className}: {className?: string} ) {
     return (
         <>
 
-        <section className="funfact-section style-two">
+        <section className={`funfact-section style-two ${className || ''}`}>
             <div className="container">
                 <div className="fact-counter">
                     <div className="row">
