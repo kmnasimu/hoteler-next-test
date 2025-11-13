@@ -185,8 +185,14 @@
   position: relative;
   z-index: 1;
 }
-.product-details.rd-page .bx-wrapper{
+.product-details.rd-page .bxslider{
   margin-bottom: 30px;
+}
+.product-details.rd-page .slider-pager{
+  &.thumb-slider{
+    max-width: 450px;
+    margin-left: 0;
+  }
   .thumb-box li{
     height: auto;
   }
